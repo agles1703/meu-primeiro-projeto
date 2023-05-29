@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="tabela.css">
+</head>
+
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                    <legend><b>Cadastro de usuário</b></legend>
+                    <br>
+                    <div class="inputBox">
+                        <div>
+                            <label for="nome" class="labelInput">Nome</label><br>
+                            <input type="text" name="nome" id="nome" class="inputUser" required>
+                        </div>
+                        <div>
+                            <label for="sobrenome" class="labelInput">Sobrenome</label><br>
+                            <input type="text" name="sobrenome" id="sobrenome"  class="inputUser" required>
+                        </div>
+                        <div>
+                            <label for="endereco" class="labelInput">Endereço</label><br>
+                            <input type="text" name="endereco" id="endereco"  class="inputUser" required>
+                        </div>
+                        <div>
+                            <label for="telefone" class="labelInput">Telefone</label><br>
+                            <input type="number" name="telefone" id="telefone"  class="inputUser" placeholder="(XX) XXXX-XXXX" required><br>
+                        </div>
+                        <div>
+                            <label for="email" class="labelInput">Email</label><br>
+                            <input type="text" name="email" id="email"  class="inputUser" required>
+                        </div>
+                        <div>
+                            <label for="senha" class="labelInput">Senha</label><br>
+                            <input type="text" name="senha" id="senha"  class="inputUser" required>
+                        </div>
+                        <div>
+                        <div>
+                            <label for="residencia" class="labelInput">Residente no Brasil?</label>
+                            <select id="residencia" name="residencia"  class="inputUser">
+                        </div>  
+                        <div>          
+                                <option selected disabled value="sim nao">Selecione</option>
+                                <option class="optSim">Sim</option>
+                                <option class="optNao">Não</option>
+                            </select>
+                        </div>
+                        </div>
+                    </div>
+                            <br><br>
+                            <label>Qual seu gênero?</label><br>
+                            <br>
+                            <div>
+                                <label>
+                                    <input type="radio" name="sexo" value="masculino" checked>Masculino
+                                </label>
+                            </div>
+                            <div>
+                                <label>
+                                    <input type="radio" name="sexo" value="feminino" checked>Feminino
+                                </label>
+                            </div>
+                            <div>
+                                <label>
+                                    <input type="radio" name="sexo" value="prefiro no informar" checked>Prefiro não informar
+                                </label>
+                            </div>    
+                                <br><br>
+                            <div>    
+                                    <label>Gostaria de receber nossos emails?</label><br>
+                                <br>
+                            </div>  
+                            <div>  
+                                    <input type="radio" name="yes no" value="sim" checked>Sim
+                                    <label id="sim1"></label><br>
+                            </div>        
+                            <div>      
+                                    <input type="radio" name="yes no" value="não" checked>Não
+                                    <label id="não1"></label><br>
+                            </div>    
+                                    <br>
+
+                                    <div class="btnEnviar"><input  type="submit" value="Enviar"></div>
+                    </div>            
+    </div>
+        </form>
+                    <br>
+                    <a class="proxPag" href="index.html">Página Inicial</a><br>
+            </fieldset>
+            <script>
+                var texto = "Rodrygo";
+                document.write(texto, "<br>");
+                var numero = 2023;
+                document.write("Ano - ", numero, "<br>");
+                var text = "rodrygo_goes";
+                document.write("Twitter: ", text, "<br>");
+                var text = "rodrygo_goes";
+                document.write("Facebook: ", text, "<br>");
+                var text = "rodrygo_goes";
+                document.write("Instagram: ", text, "<br>");
+                var text = "rodrygo_goes";
+                document.write("LinkedIn: ", text, "<br>");
+                var var_sexo = "M";
+                var sexo = ((var_sexo == "M") ? "Masculino" : "Feminino") ;
+                document.write("Sexo:",sexo, "<br>");
+                var local = "Paulista";
+                document.write("Localização - polo: ", local, "<br>");
+            </script>
+    </body>
+</html>

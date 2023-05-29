@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family= Sarala :wght@400;700 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image:url(../asseetss/img/o-que-e-inteligencia-artificial.jpg);
+}
+
+.pagInicial, .pagInicial-titulo, .pagInicial-subtxt, .pagInicial-txt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+
+.link{
+    font-family: 'Sarala', sans-serif;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 18px;
+}
+.titulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #c4fdff;
+}
+.pagInicial-titulo, .pagInicial-subtxt{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #fff2e7;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.pagInicial-subtxt, .pagInicial-titulo{
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2EF;
+}
+
+.pagInicial-txt{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #1b0d03;
+}
+
+.pagInicial-video{
+    width: 750px;
+    margin:0 auto;
+    display: block;
+    clear: both;
+}
+
+.proxPag{
+    font-family: 'Sarala', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.pagInicial-subtxtv{
+    clear: both;
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2EF;
+    text-align: center;
+
+}
+
+#coluna1{
+    position: static;
+    background-color: #e9967a;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    float:left;
+    width: 46%;
+    margin-left: 3%;
+    height: 400px;
+
+    
+}
+
+#coluna2{
+    position: static;
+    background-color: #e9967a;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    float:right;
+    width: 46%;
+    margin-right: 3%;
+    height: 400px;
+}
+
+@media screen and (max-width: 480px) {
+    .pagInicial-titulo, .pagInicial-subtxt{
+        font-size: 1.6666em;
+    }
+
+    .link{
+        font-size: 2.222222em;
+    }
+
+}
